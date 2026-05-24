@@ -1,0 +1,90 @@
+body {
+    background: #faf9f8;
+    color: #1a1a1a;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #666;
+    font-style: italic;
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.85rem;
+    font-family: monospace;
+    margin-bottom: 0.5rem;
+}
+
+.post-title {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.post-title a {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.post-title a:hover {
+    border-bottom: 1px dotted #999;
+}
+
+.post-content {
+    font-size: 1rem;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px dotted #ccc;
+}
+
+a:hover {
+    border-bottom: 1px solid #1a1a1a;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
+}
